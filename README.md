@@ -20,6 +20,17 @@ The system is intentionally **domain-constrained to planetary motion and Keplerâ
 
 ---
 
+## Knowledge Source
+
+The Streamlit application retrieves its domain-specific knowledge from a
+**public GitHub repository**, which is used as the source for the retrieval
+process that grounds the LLM responses.
+
+This design supports reproducibility and allows the backend to be adapted to
+other instructional domains by changing the referenced repository.
+
+---
+
 ## Technology Stack
 
 - **Frontend / Interface:**  
